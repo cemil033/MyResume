@@ -7,7 +7,16 @@
 
 ;
 (function($, window, document, undefined) {
-
+    
+    var year = 1996
+    var month = 3
+    var day = 18;
+    var today = new Date();
+    var age = today.getFullYear() - year;
+    if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < day)) {
+      age--;
+    }
+    document.getElementById("age").innerText = age.toString();
     /* Defaults
     ================================================== */
     var pluginName = 'sharrre',
