@@ -87,10 +87,10 @@
 
 .lang2 {
     display: inline-block;
-    text-align: center !important;
+    text-align: left !important;
     padding: 11px , 11px !important;
     height: 38.19px !important;
-    width: 100px !important;
+    width: 85px !important;
 }
 
 .countrylist .dropdown-menu {
