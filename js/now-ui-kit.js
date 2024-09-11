@@ -26,6 +26,8 @@ var navbar_initialized,
     toggle_initialized = false;
 
 $(document).ready(function() {
+    
+
     //  Activate the Tooltips
     $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
 
@@ -37,6 +39,7 @@ $(document).ready(function() {
         });
     });
 
+    
     // Activate the image for the navbar-collapse
     nowuiKit.initNavbarImage();
 
@@ -103,7 +106,6 @@ $(document).ready(function() {
 $(window).on('resize', function() {
     nowuiKit.initNavbarImage();
 });
-
 $(document).on('click', '.navbar-toggler', function() {
     $toggle = $(this);
 
@@ -174,7 +176,7 @@ nowuiKit = {
     initSliders: function() {
         // Sliders for demo purpose in refine cards section
         var slider = document.getElementById('sliderRegular');
-
+        
         noUiSlider.create(slider, {
             start: 40,
             connect: [true, false],
@@ -204,7 +206,7 @@ var big_image;
 nowuiKitDemo = {
     checkScrollForParallax: debounce(function() {
         var current_scroll = $(this).scrollTop();
-
+        
         oVal = ($(window).scrollTop() / 3);
         big_image.css({
             'transform': 'translate3d(0,' + oVal + 'px,0)',
