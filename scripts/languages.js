@@ -25,8 +25,7 @@ function LangChange(){
         document.getElementById('AZ').innerText='Azərbaycan Dİlİ';
         document.getElementById('EN').innerText='İngİlİs Dİlİ';
         document.getElementById('TR').innerText='Türk Dİlİ';
-        document.getElementById('RU').innerText='Rus Dİlİ';
-        document.getElementById('PL').innerText='Proqramlama Dilləri';
+        document.getElementById('RU').innerText='Rus Dİlİ';        
         document.getElementById('Soft Skills').innerText='Bacarıqlarım';
         document.getElementById('Comm').innerText='Kommunİkasİya';
         document.getElementById('Tw').innerText='Komanda İlə İşləmə';
@@ -36,7 +35,7 @@ function LangChange(){
         document.getElementById('WE').innerText='İş Təcrübəsi';
         document.getElementById('fji').innerText='Xüsusi proqram həlləri vasitəsi ilə inventar və ehtiyat səviyyələrinin real vaxt rejimində monitorinqi və idarə olunmasına cavabdeh idim, resursların səmərəli bölüşdürülməsinə və xərclərin azaldılmasına kömək edirdim.';
         document.getElementById('fjt').innerText='İyun 2023 - Davam Edir';
-        document.getElementById('sji').innerText='Şəbəkə konfiqurasiyaları, təhlükəsizlik daxil olmaqla şirkətin İT infrastrukturunu idarə edir və optimallaşdıran tədbirlər görür, proqram təminatının yerləşdirilməsini, bütün sistemlərdə yüksək əlçatanlığı və performansı təmin edirdim';
+        document.getElementById('sji').innerText='Şəbəkə konfiqurasiyaları, təhlükəsizlik daxil olmaqla şirkətin İT infrastrukturunu idarə edir və optimallaşdırma tədbirləri, proqram təminatının yerləşdirilməsi, bütün sistemlərdə yüksək əlçatanlığı və performansı təmin edirdim.';
         document.getElementById('sjt').innerText='May 2017 - April 2020';
         document.getElementById('Programmer1').innerText='İT və Proqramçı';
         document.getElementById('Programmer2').innerText='İT və Proqramçı';
@@ -45,7 +44,7 @@ function LangChange(){
         document.getElementById('fep').innerText='Maliyyə';
         document.getElementById('fec').innerText='Elm və Təhsİl Mərkəzİ - Təfəkkür Unİversİtetİ';
         document.getElementById('fet').innerText='Universiteti';
-        document.getElementById('sei').innerText='Təhsil aldığım müddətdə proqramlaşdırma sahəsini Full Stack olaraq qəbul etdim. Bundan əlavə, biz fərdi və ya qruplarla layihələr hazırladıq.';
+        document.getElementById('sei').innerText='Təhsil aldığım müddətdə proqramlaşdırma sahəsini Full Stack olaraq öyrəndim. Bundan əlavə, biz fərdi və ya qruplarla layihələr hazırladıq.';
         document.getElementById('sep').innerText='Programçı';
         document.getElementById('sec').innerText='STEP IT Akademİyası';
         document.getElementById('set').innerText='Akademiya';
@@ -86,8 +85,7 @@ function LangChange(){
         document.getElementById('EN').innerText='English';
         document.getElementById('TR').innerText='Turkish';
         document.getElementById('RU').innerText='RUSSiAN';
-        document.getElementById('PL').innerText='Programming Languages';
-        document.getElementById('Soft Skills').innerText='Soft Skills';
+        document.getElementById('Soft Skills').innerText='Skills';
         document.getElementById('Comm').innerText='Communication';
         document.getElementById('Tw').innerText='Teamwork';
         document.getElementById('P-S').innerText='Problem-Solving';
